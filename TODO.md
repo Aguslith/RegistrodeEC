@@ -1,0 +1,7 @@
+- [ ] Remove tab-related imports (TabContext, TabPanel, Tab, Tabs)
+- [ ] Remove tabValue state and handleTabChange function
+- [ ] Remove useEffect for tab changes
+- [ ] Add useEffect to fetch ofertas laborales on component mount
+- [ ] Update JSX: keep header, then Grid container with two Grid item xs={6} for registration cards, then Card for ADM - Ofertas Laborales
+- [ ] Remove other TabPanels (postulantes and empresas)
+- [ ] Test the layout by running the app
