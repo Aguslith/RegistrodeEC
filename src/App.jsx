@@ -22,7 +22,7 @@ import {
 } from '@mui/material';
 import axios from 'axios';
 
-const API_BASE_URL = 'https://api-registrode-ec.vercel.app';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://api-registrode-ec.vercel.app';
 
 function HomePage() {
   return (
